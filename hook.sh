@@ -20,7 +20,7 @@ copy_file(){
   fi
 }
 
-dist="./cli/dist"
+dist="./protoeval-cli/dist"
 runtimes_dir="./ProtoEval/runtimes"
 create_dir $runtimes_dir
 

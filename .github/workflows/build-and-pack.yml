@@ -28,7 +28,7 @@ jobs:
         distribution: goreleaser
         version: latest
         args: -f .goreleaser.yaml --snapshot --clean #--debug
-        workdir: cli
+        workdir: protoeval-cli
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
